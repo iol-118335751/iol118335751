@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title><a href="https://iol118335751.herokuapp.com/">118335751- Homepage</a></title>
+<title>118335751- Homepage </title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <LINK rel="stylesheet" type="text/css" href="css/index.css" />

@@ -9,12 +9,12 @@
  <?php
  
  session_start () ;
- $totalValue2 = $_POST ['txtTotal'];
- $fullNameValue= $_POST ['txtName'];
- $fullNumValue= $_POST ['txtNum'];
+ @$totalValue2 = $_POST ['txtTotal'];
+ @$fullNameValue= $_POST ['txtName'];
+ @$Email = $_POST ['txtNum'];
  echo "The name is : ".$fullNameValue.".";
  echo "<br></br>";
- echo "Phone Number is: ".$fullNumValue.".";
+ echo "Phone Number is: ".$Email.".";
  echo "<br></br>";
  echo "The total value is : €".$totalValue2."";
  ?>

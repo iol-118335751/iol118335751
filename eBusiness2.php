@@ -2,14 +2,14 @@
 session_start(); 
 $fullNameValue = "" ;
 $totalValue2="" ;
-$fullNumValue = "";
+$Email ="" ;
 /*
  * Create a session variable for the mobile number
  */
-$totalValue = $_POST['txtTotal'];
+@$totalValue = $_POST['txtTotal'];
 $_SESSION['txtName'] = $fullNameValue;
-$_SESSION['txtTotal']= $totalValue2 ;
-$_SESSION['txtNum']= $totalNumValue ;
+$_SESSION['txtTotal']= $totalValue2;
+$_SESSION['txtNum']= $Email;
 /**
  * Allocate the mobile number session variable to a text
  */
