@@ -1,0 +1,110 @@
+ 
+
+body{
+	background-color: #cc1616;
+	font-size:x-large;
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff;
+    line-height: 1.5em;
+    background-image: url("../images/emirates.jpg");
+    background-repeat: repeat-x;
+}
+
+table {
+    margin: 0 auto;
+    background-color: white;
+    padding: none;
+    width: 800px;
+    align-self: center;
+	border-style: solid;
+	border-color: red;
+}
+
+h1 { 
+	font-family: 'Arial Narrow';
+    color: #ff0000; 
+    background-color: white;
+    
+}
+
+h2 {
+	font-family: 'Tempus Sans IT, Garamond, Arial, sans-serif';
+	color: #ff0000;
+    background-color: #ffcc00;
+    text-align: center;
+}
+
+h3 { 
+    color: #ff0000; 
+}
+
+a {
+    color:#ff0000;
+    text-decoration: none;
+}
+
+
+
+p.style1 {
+    line-height: 1.5em;
+    padding: 5px;
+    text-align: justify;
+    font-size: medium;
+	color: black;
+}
+
+p.style2 {
+    color:black;
+    line-height: 0.4cm;
+    padding: 5px;
+    text-align: left;
+    font-size: small;
+}
+
+p.style3 {
+    line-height: 1.5em;
+    padding: 5px;
+    text-align: justify;
+    font-size: large;
+	color: blue;
+}
+
+menu {
+    text-decoration: none;
+    font-size: small;
+    font-family: Arial Narrow;    
+}
+
+menu li {
+    list-style-type: none;
+}
+
+menu a {
+    font-size: large;
+    display: block;
+    text-decoration: none;
+    color: #ff6600;
+    list-style-type: none;
+}
+
+menu a:hover {
+    text-decoration: underline, overline;
+    background-color: #ff6600;
+    color: #ffffff;
+}
+
+td {
+	color: black
+}
+
+
+th {
+	color: black
+}
+
+
+
+
+table league{
+    border-collapse: collapse;
+    width: 100%;

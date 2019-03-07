@@ -1,0 +1,115 @@
+  
+body{
+	
+	font-size:x-large;
+    font-family: 'Open Sans', sans-serif;
+    color: #0033cc;
+    line-height: 1.5em;
+    background-color: black;
+    background-repeat: repeat-x;
+}
+
+table {
+    margin: 0 auto;
+    background-color: black;
+	background-image: url("../img/rose.png");
+    padding: none;
+    width: 800px;
+    align-self: center;
+	border-style: solid;
+	border-color: black;
+}
+
+h1 { 
+	font-family: 'Arial Narrow';
+    color: Grey; 
+	font-style: italic;
+   
+
+}
+
+h2 {
+	font-family: 'Tempus Sans IT, Garamond, Arial, sans-serif';
+	color: grey;
+    background-color: black;
+    text-align: center;
+}
+
+h3 { 
+    color: white; 
+}
+
+a {
+    color:white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white
+    text-decoration: underline;
+}
+
+
+p.style1 {
+    line-height: 1.5em;
+    padding: 5px;
+    text-align: justify;
+    font-size: medium;
+	color: white;
+}
+
+p.style2 {
+    color:white;
+    line-height: 0.4cm;
+    padding: 5px;
+    text-align: left;
+    font-size: small;
+}
+
+p.style3 {
+    line-height: 1.5em;
+    padding: 5px;
+    text-align: justify;
+    font-size: large;
+	color: white;
+}
+
+menu {
+    text-decoration: none;
+    font-size: small;
+    font-family: Arial Narrow;    
+}
+
+menu li {
+    list-style-type: none;
+}
+
+menu a {
+    font-size: large;
+    display: block;
+    text-decoration: none;
+    color: white;
+    list-style-type: none;
+}
+
+menu a:hover {
+    text-decoration: underline, overline;
+    background-color: white;
+    color: white;
+}
+
+td {
+	color: white
+}
+
+
+th {
+	color: white
+}
+
+
+
+
+table league{
+    border-collapse: collapse;
+    width: 100%;

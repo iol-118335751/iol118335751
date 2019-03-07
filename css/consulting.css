@@ -1,0 +1,118 @@
+ 
+body{
+	background-color: black;
+	font-size:x-large;
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff;
+    line-height: 1.5em;
+    background-image: url("../img/starry.jpg") ;
+    
+}
+
+table {
+    margin: 0 auto;
+    background-color: black;
+    padding: none;
+    width: 800px;
+    align-self: center;
+	border-style: solid;
+	border-color: blue;
+}
+
+h1 { 
+	font-family: 'Arial Narrow';
+    color: blue; 
+    background-color: black;
+    text-align: center;
+    
+}
+
+h2 {
+	font-family: 'Tempus Sans IT, Garamond, Arial, sans-serif';
+	color: grey;
+    background-color: black;
+    text-align: center;
+	text-decoration: underline, overline;
+}
+
+h3.a { 
+    color: grey; 
+}
+
+a {
+    color:grey;
+    text-decoration: none;
+}
+
+
+
+
+p.style1 {
+    line-height: 1.5em;
+    padding: 5px;
+    text-align: justify;
+    font-size: medium;
+	color: grey;
+}
+
+p.style2 {
+    color:grey;
+    line-height: 0.4cm;
+    padding: 5px;
+    text-align: left;
+    font-size: small;
+}
+
+p.style3 {
+    line-height: 1.5em;
+    padding: 5px;
+    text-align: justify;
+    font-size: large;
+	color: grey;
+}
+
+menu {
+    text-decoration: none;
+    font-size: small;
+    font-family: Arial Narrow;    
+}
+
+menu li {
+    list-style-type: none;
+}
+
+menu a {
+    font-size: large;
+    display: block;
+    text-decoration: none;
+    color: black;
+    list-style-type: none;
+}
+
+menu a:hover {
+    text-decoration: underline, overline;
+    background-color: #ff6600;
+    color: #ffffff;
+}
+
+td {
+	color: black
+}
+
+
+th {
+	color: black
+}
+
+a {
+	color: grey;
+	text-decoration: underline;
+}
+
+
+
+table league{
+    border-collapse: collapse;
+    width: 100%;
+
+

@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+}
+ 
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: black;
+}
+
+
+
+/* Create three equal columns that floats next to each other */
+.column1 {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 950px;
+  background-image:  url("../img/cv.jpg");
+  font-size: 80px;
+  text-align: center;
+  color: Grey;
+
+}
+
+.column2 {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 950px;
+  background-image:  url("../img/interests.jpg");
+  font-size: 80px;
+  text-align: center;
+  color: Grey;
+  
+}
+
+.column3 {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 950px;
+  background-image:  url("../img/cons.jpg");
+  font-size: 80px;
+  text-align: center;
+  color: Grey;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+a {
+    color: grey;
+    font-size: 50px;
+}
+
